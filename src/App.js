@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import Header from "./components/header.jsx" 
+import Header from "./components/header.js" 
 import axios from 'axios'
 import Cards from './cards'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
@@ -13,18 +13,18 @@ import { DateRangePicker } from 'rsuite'
 import moment from 'moment'
 
 const App = () => {
-  let [date, filterDate] = useState('');
-  const [open,setOpen]=useState(false);
-  // const items=data.slice(0,28)
-  const dateEdit1=Date.parse(date[0]);
-  const dateEdit2=Date.parse(date[1]);
-      let dateObject1 = new Date(dateEdit1)
-  let dateObject2 = new Date(dateEdit2)
-  let humanDateFormat1 = dateObject1.toLocaleString() 
-  let humanDateFormat2 = dateObject2.toLocaleString() 
-  console.log(humanDateFormat1);
-  console.log(humanDateFormat2);
-  console.log({date});
+  // let [date, filterDate] = useState('');
+  // const [open,setOpen]=useState(false);
+  // // const items=data.slice(0,28)
+  // const dateEdit1=Date.parse(date[0]);
+  // const dateEdit2=Date.parse(date[1]);
+  //     let dateObject1 = new Date(dateEdit1)
+  // let dateObject2 = new Date(dateEdit2)
+  // let humanDateFormat1 = dateObject1.toLocaleString() 
+  // let humanDateFormat2 = dateObject2.toLocaleString() 
+  // console.log(humanDateFormat1);
+  // console.log(humanDateFormat2);
+  // console.log({date});
   const [items,setItems]=useState([]);
   const [loading,setLoading]=useState('');
   useEffect(()=>{
