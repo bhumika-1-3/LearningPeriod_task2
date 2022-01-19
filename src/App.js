@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import Header from "./components/header.js" 
+import Header from "./header.js" 
 import axios from 'axios'
 import Cards from './cards'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
