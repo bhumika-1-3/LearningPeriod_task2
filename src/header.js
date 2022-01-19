@@ -1,9 +1,9 @@
 import React from 'react'
-import Earth from "../components/earth.png"
-import Bg from "../components/images/background.png"
-import Rock from "../components/images/rock.png"
-import foreground from "../components/images/foreground.png"
-import mid from "../components/images/mid.png"
+import Earth from "./lp2_Images/earth.png"
+import Bg from "./lp2_Images/images/background.png"
+import Rock from "./lp2_Images/images/rock.png"
+import foreground from "./lp2_Images/images/foreground.png"
+import mid from "./lp2_Images/images/mid.png"
 
 const header = () => {
     return (

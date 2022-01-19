@@ -87,7 +87,7 @@ console.log(items);
       <Switch>
      <Route path='/' exact >
       <Header/>
-     <Filter/>
+     {/* <Filter/> */}
      <Cards data={items}/>
      </Route>
      <Route path={`/launches/flight_number/:id`} >
